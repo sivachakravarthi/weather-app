@@ -1,0 +1,79 @@
+.container{
+  margin: 5px auto;
+  text-align: center;
+  /* padding: 30px; */
+}
+.nav-bar{
+  /* margin: 0px auto; */
+  padding: 16px;
+  /* width: 800px; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 100px;
+}
+.heading{
+  margin: 2px;
+  color: #FF6600;
+}
+.text-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.text-filed{
+  padding: 8px;
+  border: 1px solid #FF6600;
+  border-radius: 8px
+
+}
+.search-btn{
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: #D26C22;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 10px;
+  margin: 10px auto;
+}
+.firstDayWeather{
+  text-align: center;
+  width: 200px;
+}
+.firstDayWeather-date{
+  width: 100%;
+  background-color: #FF6600;
+  color: black;
+  border: 1px solid black;
+}
+.firstDayWeather-temp{
+  width: 100%;
+  background-color: #CCCCCC;
+  color: black;
+  border: 1px solid black;
+}
+.firstDayWeather-min-max-header{
+  display: flex;
+  width: 100%;
+  background-color: #CCCCCC;
+  color: black;
+  border: 1px solid black;
+}
+.min{
+  width: 50%;
+  border-right: 1px solid black;
+}
+.max{
+  width: 50%;
+}
+.spinner{
+  margin-left: 20px;
+}
